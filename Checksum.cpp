@@ -97,9 +97,9 @@ bool Checker(string sentMessage,string recievedMessage,int blockSize) {
 int main() {
     string sentMessage,recievedMessage;
     int blockSize;
-    cout<<"enter the sent message:"<<endl;
+    cout<<"enter the sent message(enter string of 0's and 1's):"<<endl;
     cin>>sentMessage;
-    cout<<"enter the recieved message:"<<endl;
+    cout<<"enter the recieved message(enter string of 0's and 1's):"<<endl;
     cin>>recievedMessage;
     cout<<"enter the block size:"<<endl;
     cin>>blockSize;
